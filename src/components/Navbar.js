@@ -3,14 +3,17 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import pdf from "../../Assets/../src/Assets/Quenan Natalia CV.pdf";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineDownload,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { Button } from "react-bootstrap";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -79,13 +82,16 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> CV
-              </Nav.Link>
+            <Button
+           
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px", marginTop:"10px" }}
+          > 
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
             </Nav.Item>
 
             
