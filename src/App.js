@@ -28,6 +28,11 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  document.oncontextmenu = function (e) {
+    e.preventDefault();
+};
+
+
   return (
     <Router>
       <Preloader load={load} />
