@@ -255,17 +255,20 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient),  url(./Assets/home-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 10px !important;
   padding-top: 30px !important;
+  
+  
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  
 }
 
 .heading {
@@ -294,8 +297,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
+    font-size: 2.4em !important;
+    font-weight: 600 !important;
     position: absolute !important;
   }
   .Typewriter__cursor {
@@ -310,8 +313,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 1em !important;
-    padding-bottom: 2em !important;
+    padding-top: 2em !important;
+    padding-bottom: 1em !important;
   }
 }
 
@@ -319,6 +322,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
+ 
 }
 
 .home-about-description {
@@ -384,7 +389,7 @@ glow::after {
 }
 
 .glow:hover::before {
-  opacity: 30%;
+  opacity: 60%;
 }
 
 .home-about-social {
@@ -499,6 +504,7 @@ glow::after {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
 
 }
 
@@ -774,26 +780,4 @@ glow::after {
   100% {
     transform: scale(1);
   }
-}
-
-.fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
-
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
 }

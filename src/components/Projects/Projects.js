@@ -79,13 +79,13 @@ function Projects() {
               que éste sistema busca proporcionar.
             </p>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
+            <Col md={4} className="project-card block glow">
               <ProjectCard imgPath={sys3} />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="project-card block glow">
               <ProjectCard imgPath={sys1} />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="project-card block glow">
               <ProjectCard imgPath={sys2} />
             </Col>
             </Row>
