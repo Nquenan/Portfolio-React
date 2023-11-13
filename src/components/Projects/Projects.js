@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import web2 from "../../Assets/Projects/preview2.png";
 import portfolio from "../../Assets/Projects/Preview3.png";
 import web1 from "../../Assets/Projects/preview.png";
+import sys1 from "../../Assets/Projects/00sys.png";
+import sys2 from "../../Assets/Projects/01sys.png";
+import sys3 from "../../Assets/Projects/02sys.png";
 
 function Projects() {
   return (
@@ -12,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mis <strong className="purple">Proyectos </strong>
+          MIS <strong className="purple">PROYECTOS </strong>
         </h1>
         <p style={{ color: "white" }}>
           Aquí hay algunos proyectos en los que he trabajado recientemente.
@@ -46,6 +49,41 @@ function Projects() {
               description="Página web desarrollada para el tatuador Héctor Roa, realizada con HTML,CSS y Javascript"
               demoLink="https://roa-art.netlify.app/"
             />
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid className="project-section">
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col>
+            <h1 style={{ fontSize: "2.6em", color: "white" }}>
+              Tattoo <span className="purple"> Manager System </span>
+            </h1>
+            <p style={{ color: "white", padding: "20px" }}>
+              Proyecto Final realizado para el Curso de Full-Stack Web Developer
+              El propósito de éste sistema de gestión de locales de tatuajes es
+              proporcionar una solución integral para abordar los desafíos que
+              enfrentan en su día a día. Los locales o estudios de tatuajes a
+              menudo se encuentran en un entorno artístico, pero pueden
+              enfrentar dificultades en la administración y organización de su
+              operación. Este sistema aborda estas necesidades al ofrecer
+              herramientas que permiten una gestión eficiente de citas, gestión
+              de Tatuadores y Piercers, sean locales o Invitados, control de
+              Insumos y Merchandise, así como una administración de usuarios
+              simplificada. Entendemos que la eficiencia y la organización son
+              fundamentales para el éxito de éste rubro, y es precisamente lo
+              que éste sistema busca proporcionar.
+            </p>
+            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard imgPath={sys3} />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard imgPath={sys1} />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard imgPath={sys2} />
+            </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
