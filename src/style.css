@@ -249,7 +249,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 30px !important;
 }
 
 .home-section {
@@ -259,7 +259,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 10px !important;
-  padding-top: 30px !important;
+  padding-top: 35px !important;
   
   
 }
@@ -278,7 +278,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 40px !important;
 }
 
 .main-name {
