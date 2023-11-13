@@ -157,7 +157,7 @@ button:focus {
 .logo {
   height: 2em !important;
   width: 4em !important;
-  margin:auto;
+  margin: auto;
 }
 
 .navbar-nav .nav-link {
@@ -207,10 +207,10 @@ button:focus {
 }
 
 .wave {
-  animation-name: wave-animation; 
-  animation-duration: 2.1s; 
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
   animation-iteration-count: infinite;
-  transform-origin: 70% 70%; 
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -220,7 +220,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } 
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -332,6 +332,59 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+.block {
+  background: transparent;
+  position: relative;
+  width: 300px;
+  padding: 1rem;
+  margin: 10% auto;
+  border-radius: 20px;
+}
+
+.glow::before,
+glow::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  background: linear-gradient(
+    45deg,
+    #993333,
+    #ff00ff,
+    #6e0dd0,
+    #099fff,
+    #ff00,
+    #993333
+  );
+  background-size: 400%;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 500% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.glow::before {
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.glow:hover::before {
+  opacity: 30%;
 }
 
 .home-about-social {
@@ -446,7 +499,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+
 }
 
 .project-card {
@@ -455,6 +508,11 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+}
+
+.project-section2 {
+  position: relative !important;
+  padding-bottom: 30px !important;
 }
 
 .project-card-view {

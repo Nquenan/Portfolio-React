@@ -21,8 +21,9 @@ function Projects() {
           Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card block glow">
             <ProjectCard
+             
               imgPath={portfolio}
               isBlog={false}
               title="Mi primer Portfolio"
@@ -31,7 +32,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card block glow">
             <ProjectCard
               imgPath={web1}
               isBlog={false}
@@ -41,7 +42,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card block glow">
             <ProjectCard
               imgPath={web2}
               isBlog={false}
@@ -52,13 +53,13 @@ function Projects() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="project-section">
+      <Container fluid className="project-section2">
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col>
             <h1 style={{ fontSize: "2.6em", color: "white" }}>
               Tattoo <span className="purple"> Manager System </span>
             </h1>
-            <p style={{ color: "white", padding: "20px" }}>
+            <p style={{ color: "white" }}>
               Proyecto Final realizado para el Curso de Full-Stack Web Developer
               <br />
               El propósito de éste sistema de gestión de locales de tatuajes es

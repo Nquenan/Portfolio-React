@@ -12,7 +12,6 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
 import { Button } from "react-bootstrap";
 
 function NavBar() {
@@ -82,19 +81,16 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-            <Button
-           
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px", marginTop:"10px" }}
-          > 
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+              <Button
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                style={{ maxWidth: "250px", marginTop: "10px" }}
+              >
+                <AiOutlineDownload />
+                &nbsp;Download CV
+              </Button>
             </Nav.Item>
-
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
