@@ -60,16 +60,20 @@ function Projects() {
             </h1>
             <p style={{ color: "white", padding: "20px" }}>
               Proyecto Final realizado para el Curso de Full-Stack Web Developer
+              <br />
               El propósito de éste sistema de gestión de locales de tatuajes es
               proporcionar una solución integral para abordar los desafíos que
-              enfrentan en su día a día. Los locales o estudios de tatuajes a
+              enfrentan en su día a día. 
+              <br />Los locales o estudios de tatuajes a
               menudo se encuentran en un entorno artístico, pero pueden
               enfrentar dificultades en la administración y organización de su
-              operación. Este sistema aborda estas necesidades al ofrecer
+              operación.
+              <br /> Este sistema aborda estas necesidades al ofrecer
               herramientas que permiten una gestión eficiente de citas, gestión
               de Tatuadores y Piercers, sean locales o Invitados, control de
               Insumos y Merchandise, así como una administración de usuarios
-              simplificada. Entendemos que la eficiencia y la organización son
+              simplificada.
+              <br /> Entendemos que la eficiencia y la organización son
               fundamentales para el éxito de éste rubro, y es precisamente lo
               que éste sistema busca proporcionar.
             </p>
