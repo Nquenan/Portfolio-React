@@ -8,17 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            Actualmente, acabo de finalizar mi formación en Silicon Misiones,
-            donde he adquirido conocimiento y experiencia en Desarrollo Web Full-Stack.
-            <br />A lo largo de mi trayectoria, he tenido la oportunidad de
-            viajar y mejorar mis habilidades de comunicación en inglés.
+            Actualmente, acabo de finalizar mi formación en Silicon Misiones, donde he adquirido conocimiento y experiencia en Desarrollo Web Full-Stack.
+            <br />A lo largo de mi trayectoria, he tenido la oportunidad de viajar y mejorar mis habilidades de comunicación en inglés.
             <br />
-            Mi experiencia laboral previa me ha permitido desarrollar
-            competencias esenciales como el trabajo en equipo, adaptabilidad a
-            los cambios, empatía y comunicación.
+            Mi experiencia laboral previa me ha permitido desarrollar competenciasesenciales como el trabajo en equipo, adaptabilidad a los cambios, empatía y comunicación.
             <br />
-            Soy una profesional comprometida que disfruta enfrentar desafíos en
-            equipo para alcanzar objetivos establecidos.
+            Soy una profesional comprometida que disfruta enfrentar desafíos en equipo para alcanzar objetivos establecidos.
             <br />
             <br />
             Aparte de programar, disfruto de:
