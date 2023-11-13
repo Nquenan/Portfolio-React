@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Actualmente, acabo de finalizar mi formación en Silicon Misiones,
             donde he adquirido conocimiento y experiencia en Desarrollo Web Full-Stack.
             <br />A lo largo de mi trayectoria, he tenido la oportunidad de
