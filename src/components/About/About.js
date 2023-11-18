@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/19.png";
 import Toolstack from "./Toolstack";
 
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -44,8 +45,9 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
+       
         <Github />
+    
       </Container>
     </Container>
   );

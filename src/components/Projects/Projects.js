@@ -20,10 +20,9 @@ function Projects() {
         <p style={{ color: "white" }}>
           Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="project-card block glow">
             <ProjectCard
-             
               imgPath={portfolio}
               isBlog={false}
               title="Mi primer Portfolio"
@@ -55,20 +54,26 @@ function Projects() {
       </Container>
       <Container fluid className="project-section2">
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col>
-            <h1 style={{ fontSize: "2.6em", color: "white" }}>
+          <Col md={9}>
+            <h1
+              style={{
+                fontSize: "2.6em",
+                color: "white",
+                paddingBottom: "20px",
+              }}
+            >
               Tattoo <span className="purple"> Manager System </span>
             </h1>
-            <p style={{ color: "white" }}>
-              Proyecto Final realizado para el Curso de Full-Stack Web Developer
+            <p style={{ color: "white", textAlign: "center", }}>
+              Proyecto Final realizado para el Curso de Full-Stack Web Developer.
               <br />
               El propósito de éste sistema de gestión de locales de tatuajes es
               proporcionar una solución integral para abordar los desafíos que
-              enfrentan en su día a día. 
-              <br />Los locales o estudios de tatuajes a
-              menudo se encuentran en un entorno artístico, pero pueden
-              enfrentar dificultades en la administración y organización de su
-              operación.
+              enfrentan en su día a día.
+              <br />
+              Los locales o estudios de tatuajes a menudo se encuentran en un
+              entorno artístico, pero pueden enfrentar dificultades en la
+              administración y organización de su operación.
               <br /> Este sistema aborda estas necesidades al ofrecer
               herramientas que permiten una gestión eficiente de citas, gestión
               de Tatuadores y Piercers, sean locales o Invitados, control de
@@ -78,16 +83,29 @@ function Projects() {
               fundamentales para el éxito de éste rubro, y es precisamente lo
               que éste sistema busca proporcionar.
             </p>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card block glow">
-              <ProjectCard imgPath={sys3} />
-            </Col>
-            <Col md={4} className="project-card block glow">
-              <ProjectCard imgPath={sys1} />
-            </Col>
-            <Col md={4} className="project-card block glow">
-              <ProjectCard imgPath={sys2} />
-            </Col>
+            <p style={{ color: "white", textAlign: "center"}}>
+              Sistema desarrollado con React.js, Bootstrap, MySql, y Node.js.
+              <br />
+              Este sistema contiene módulos tales como:
+              <br />
+              <br />
+              <li>Login y Registro</li>
+              <li>Agenda de Turnos</li>
+              <li>Control de Stock</li>
+              <li>Gestión de Usuarios</li>
+              <li>Formulario de Clientes, Tatuadores y Piercers</li>
+              <li>Panel de información y Edición Personal de Usuario</li>
+            </p>
+            <Row style={{ justifyContent: "center" }}>
+              <Col md={4} className="project-card block glow">
+                <ProjectCard imgPath={sys3} />
+              </Col>
+              <Col md={4} className="project-card block glow">
+                <ProjectCard imgPath={sys1} />
+              </Col>
+              <Col md={4} className="project-card block glow">
+                <ProjectCard imgPath={sys2} />
+              </Col>
             </Row>
           </Col>
         </Row>

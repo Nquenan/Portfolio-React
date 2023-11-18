@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
+import myImg2 from "../../Assets/21.png";
 
 function Github() {
   return (
@@ -15,6 +16,9 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
+      <Col md={5}>
+        <img src={myImg2} className="img-fluid" alt="logo2"  />
+      </Col>
     </Row>
   );
 }

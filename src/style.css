@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #120920;
 }
 
 /* Handle */
@@ -118,7 +118,7 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
+.navbar-toggler:not(.colised) span:nth-child(1) {
   position: absolute !important;
   left: 12px !important;
   top: 10px !important;
@@ -254,8 +254,8 @@ button:focus {
 
 .home-section {
   position: relative;
+  background-image: var(--section-background-color) !important;
   z-index: -1;
-  background-image: var(--image-gradient),  url(./Assets/home-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 10px !important;
@@ -315,7 +315,9 @@ button:focus {
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
-    padding-bottom: 1em !important;
+    padding-bottom: 2em !important;
+  
+   
   }
 }
 
@@ -324,7 +326,6 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-image: var(--section-background-color) !important;
- 
 }
 
 .home-about-description {
@@ -510,8 +511,8 @@ glow::after {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -519,7 +520,7 @@ glow::after {
 
 .project-section2 {
   position: relative !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 25px !important;
 }
 
 .project-card-view {
@@ -763,22 +764,7 @@ glow::after {
   transition: 0.3s ease !important;
 }
 
-.like-btn:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
 
-.animate-like {
-  animation-name: likeAnimation;
-  animation-fill-mode: forwards;
-  animation-duration: 0.85s;
-}
-@keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
+
+
