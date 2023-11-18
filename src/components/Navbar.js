@@ -80,17 +80,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Button
-                variant="primary"
-                href={pdf}
-                target="_blank"
-                style={{ maxWidth: "250px", marginTop: "10px" }}
-              >
-                <AiOutlineDownload />
-                &nbsp;Download CV
-              </Button>
-            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
