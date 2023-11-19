@@ -1,6 +1,8 @@
 
 # Personal Portfolio 
 ## Natalia Quenan - Realizado en React
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
 
 
