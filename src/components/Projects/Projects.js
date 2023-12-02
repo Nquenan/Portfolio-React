@@ -107,6 +107,11 @@ function Projects() {
                 <ProjectCard imgPath={sys2} />
               </Col>
             </Row>
+            <Row style={{ justifyContent: "center" }}>
+              <Col>
+              <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
