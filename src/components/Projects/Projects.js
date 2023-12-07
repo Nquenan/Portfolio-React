@@ -109,7 +109,7 @@ function Projects() {
             </Row>
             <Row style={{ justifyContent: "center" }}>
               <Col>
-              <img src="https://media.tenor.com/hB9OTbewrikAAAAi/work-work-in-progress.gif" />
+              <img src="https://media.tenor.com/dt1etVruHGAAAAAi/rylsee-tooshytorap.gif" />
               </Col>
             </Row>
           </Col>
