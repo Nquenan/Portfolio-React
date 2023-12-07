@@ -32,20 +32,14 @@ function Home2() {
               </i>
               <br />
               <br />
-              Siempre que sea posible, también aplico mi pasión por desarrollar proyectos con&nbsp;
-              <b className="purple">Node.js</b> y
-              <i>
-                <b className="purple">
-                  {" "}
-                 Librerías Javascript y Frameworks
-                </b>
-              </i>
-              &nbsp; como
-              <i>
-                <b className="purple"> React.js</b>&nbsp;y 
-                <b className="purple"> Bootstrap</b>
-              </i>
-            </p>
+             
+             
+             
+              
+               
+                
+                
+          </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
