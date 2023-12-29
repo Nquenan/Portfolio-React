@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Website Tattoo Personal"
               description="Mi primer Página web referenciada a mi trabajo como Tatuadora, realizada con HTML, CSS, Bootstrap"
-              demoLink="https://www.nataliaquenantattoo.com.ar/"
+              demoLink="https://nataliaquenantattoo.netlify.app/"
             />
           </Col>
 
