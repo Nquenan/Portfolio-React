@@ -23,7 +23,8 @@ function Home2() {
               autodidacta.
               <br />En 2021, decidí expandir mis habilidades y completé con éxito el curso de Front-End Developer en
               Alura Latam en 2022. 
-              Siempre me gustó la programación y el diseño. <br />En 2023 Ingresé a Silicon Misiones.. y allí comencé a perfeccionar mis habilidades de programación web Full Stack y el curso de Inglés para Programadores, realizado en el mismo período, siendo seleccionada entre otros estudiantes para rendir el Exámen Internacional Linguaskill de Cambridge.
+              Siempre me gustó la programación y el diseño. <br />En 2023 Ingresé a Silicon Misiones y allí comencé a perfeccionar mis habilidades de programación web Full Stack más el curso de Inglés para Programadores, realizado en el mismo período, siendo seleccionada entre otros estudiantes para rendir el Exámen Internacional Linguaskill de Cambridge.
+              <br />En mi Linkedin podrás ver las certificaciónes correspondientes.
               <br />
               <br />Soy una estudiante comprometida y entusiasta, siempre ansiosa por absorber conocimiento y explorar nuevas áreas de aprendizaje 😊
               <i>
