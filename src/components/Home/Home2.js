@@ -18,13 +18,12 @@ function Home2() {
               Mi nombre es Natalia Quenan, soy estudiante de Programación Web
               Full Stack. Diseñadora Gráfica con más de siete años de
               experiencia y una trayectoria de trece años como profesional
-              independiente en el mundo del tatuaje. En 2021, decidí expandir
-              mis habilidades y me inicié en la programación de forma
-              autodidacta. Completé con éxito el curso de Front-End Developer en
-              Alura Latam en 2022. Siempre me gustó la programación y el
-              diseño. Aprendí de manera autodidacta HTML y CSS en 2005, de allí
-              en más, nunca dejé de estar al pendiente de las nuevas
-              herramientas.
+              independiente en el mundo del tatuaje.
+              En 2005 me inicié en la programación de forma
+              autodidacta.
+              <br />En 2021, decidí expandir mis habilidades y completé con éxito el curso de Front-End Developer en
+              Alura Latam en 2022. 
+              Siempre me gustó la programación y el diseño. <br />En 2023 Ingresé a Silicon Misiones.. y allí comencé a perfeccionar mis habilidades de programación web Full Stack y el curso de Inglés para Programadores, realizado en el mismo período, siendo seleccionada entre otros estudiantes para rendir el Exámen Internacional Linguaskill de Cambridge.
               <br />
               <br />Soy una estudiante comprometida y entusiasta, siempre ansiosa por absorber conocimiento y explorar nuevas áreas de aprendizaje 😊
               <i>
