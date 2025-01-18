@@ -109,6 +109,24 @@ function Projects() {
             </Row>
             <Row style={{ justifyContent: "center" }}>
               <Col>
+              <h1
+              style={{
+                fontSize: "2.6em",
+                color: "white",
+                paddingBottom: "20px",
+              }}
+            >
+              Diseño <span className="purple"> Gráfico </span>
+            </h1>
+
+            <p style={{ color: "white", textAlign: "center", }}>
+            He estado trabajando en diversos proyectos de diseño gráfico, incluyendo la creación de prototipos para aplicaciones y estrategias de marketing para redes sociales. 
+            Esto abarca desde la gestión de contenido visual para varias tiendas de tatuajes, hasta la promoción de mi propio negocio. 
+            <br /> En cada proyecto, he utilizado herramientas como Photoshop y Canva para diseñar material atractivo y eficaz que resuene con el público objetivo, 
+            manteniendo siempre la estética profesional y creativa. Estos trabajos incluyen la creación de banners, publicaciones, 
+            anuncios y otras piezas visuales para fortalecer la presencia.
+            </p>
+
               <img src="https://media.tenor.com/dt1etVruHGAAAAAi/rylsee-tooshytorap.gif" style={{ maxWidth: "100%", height: "auto", display: "block", margin: "0 auto" }} />
               </Col>
             </Row>
